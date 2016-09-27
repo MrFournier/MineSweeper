@@ -24,7 +24,7 @@ public class Game{
     }while(!finish);
 
     if(board.win()){
-      System.out.println("Congratulations, you won in " + turn + "turns");
+      System.out.println("Congratulations, you won in " + turn + " turns");
     } else{
         System.out.println("Mine! You Lose!");
         board.showMines();
